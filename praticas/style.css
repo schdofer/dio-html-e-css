@@ -1,17 +1,33 @@
 @charset "utf-8";
 
 body {
-    background-color: #ccc;
+    background-color: #ddd;
+    max-width: 900px;
+    margin: auto;
+}
+
+header.main {
+    margin: 20px;
+    padding: 10px 0;
+}
+
+.header-image {
+    width: 100%;
 }
 
 article {
     background-color: #fff;
     margin: 20px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 footer {
     text-align: center;
+}
+
+footer ul {
+    list-style-type: "\1F44D";
 }
 
 footer ul li {
@@ -22,4 +38,9 @@ footer ul li {
 #title, .subtitle, .post-title {
     color: blue;
     text-decoration: underline;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
 }
