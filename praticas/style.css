@@ -1,5 +1,24 @@
 @charset "utf-8";
 
+body {
+    background-color: #ccc;
+}
+
+article {
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 20px;
+}
+
 #title, .subtitle, .post-title {
     color: blue;
     text-decoration: underline;
